@@ -2,7 +2,7 @@ domain: example.com
 url: https://example.com
 baseurl: "/wind"
 
-title: Wind
+title: Profectus
 email: wind@example.com
 author: Wind Sample
 
@@ -19,3 +19,7 @@ rrss:
   email: "example@example.cl"
   telegram: "https://t.me/"
   discord: "https://discord.com/"
+
+collections:
+  pins:
+    output: true
