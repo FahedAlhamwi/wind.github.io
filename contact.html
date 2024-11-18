@@ -16,19 +16,22 @@ permalink: /contact/
       background-color: #f4f4f4; /* Light background for the page */
       margin: 0;
       padding: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh; /* Ensure the body takes the full height of the screen */
     }
-    .container {
-      width: 80%;
-      margin: 0 auto;
-      padding: 40px 0;
+
+    .content {
+      flex: 1; /* Ensures the content takes up available space */
     }
+
     .card {
       background-color: #fff; /* White background for the card */
       border-radius: 10px; /* Rounded corners */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow around the card */
       padding: 30px;
       max-width: 600px;
-      margin: 0 auto;
+      margin: auto;
     }
     h1, h2 {
       color: #333;
@@ -58,16 +61,22 @@ permalink: /contact/
     .address {
       color: #28a745; /* Unique color for address text */
     }
+
+    /* Footer styling */
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: auto; /* Pushes the footer to the bottom of the page */
+    }
   </style>
 </head>
 <body>
 
-<div class="container">
+<div class="content">
   <div class="card">
     <h1>Kontaktieren Sie uns</h1>
 
     <div class="contact-info">
-     
       <p class="phone">Telefon: 06171-9518040</p>
       <p>
         <a href="mailto:verwaltung@profectusbildung.de">verwaltung@profectusbildung.de</a>
@@ -83,6 +92,8 @@ permalink: /contact/
     </div>
   </div>
 </div>
+
+
 
 </body>
 </html>
