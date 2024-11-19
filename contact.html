@@ -29,7 +29,7 @@ permalink: /contact/
     }
 
     .card {
-      background-color: #fff; /* White background for the card */
+      background-color: #D3D3D3; /* White background for the card */
       border-radius: 10px; /* Rounded corners */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow around the card */
       padding: 30px;
@@ -54,15 +54,15 @@ permalink: /contact/
     .note {
       font-style: italic;
       margin-top: 20px;
-      color: #666;
+      color: ##00BFFF;
     }
     
     /* Unique Colors for specific text */
     .phone {
-      color: #ff5733; /* Unique color for phone number */
+      color: blue; /* Unique color for phone number */
     }
     .address {
-      color: #28a745; /* Unique color for address text */
+      color: black; /* Unique color for address text */
     }
 
     /* Footer styling */
@@ -79,16 +79,46 @@ permalink: /contact/
   <div class="card">
     <h1>Kontaktieren Sie uns</h1>
 
+    <head>
+      <!-- Add Font Awesome CDN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    
+    <head>
+      <!-- Add Font Awesome CDN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <style>
+        /* Custom styles for the icons */
+        .contact-info i {
+          color: black;
+          margin-right: 8px; /* Adds space between the icon and text */
+        }
+      </style>
+    </head>
+    
     <div class="contact-info">
-      <p class="phone">Telefon: 06171-9518040</p>
-      <p>
-        <a href="mailto:verwaltung@profectusbildung.de">verwaltung@profectusbildung.de</a>
+      <p class="address">
+        Haus der Wirtschaft – HDW<br>
+        Daimlerstraße 6<br>
+        61449 Steinbach (Taunus)
+      </p>
+      <p class="phone">
+        <i class="fas fa-phone-alt"></i> 06171-9518040
       </p>
       <p>
-        <a href="https://www.profectus-bildung.de" target="_blank" rel="noopener noreferrer">www.profectus-bildung.de</a>
+        <a href="mailto:verwaltung@profectusbildung.de">
+          <i class="fas fa-envelope"></i> verwaltung@profectusbildung.de
+        </a>
       </p>
-      <p class="address">Haus der Wirtschaft – HDW<br>Daimlerstraße 6<br>61449 Steinbach (Taunus)</p>
+      <p>
+        <a href="https://www.profectus-bildung.de" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-globe"></i> www.profectus-bildung.de
+        </a>
+      </p>
+      
     </div>
+    
+    
 
     <div class="note">
       <p>Online-Termine werden individuell und nach Absprache mit Ihnen vereinbart.</p>

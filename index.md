@@ -1,7 +1,8 @@
 ---
 layout: home
 ---
-# Welcome
+# Profectus
 
-Hello World. Hello Friend.
+<p style="font-style: italic;">Sprache & Bildung</p>
+
 

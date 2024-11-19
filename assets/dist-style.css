@@ -2,10 +2,10 @@
   
 /* In your custom CSS file */
 .logo {
-    height: 3rem; /* Default height */
-    width: 12rem; /* Set width equal to height for a perfect circle */
-    border-radius: 0%; /* Make the image circular */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
+    height: 3rem;  /* Adjust height to make it smaller */
+    width: 3rem;   /* Adjust width to make it smaller */
+    border-radius: 50%;  /* Make the image circular */
+    object-fit: cover;   /* Ensure the image covers the area without distortion */
 }
 
   
