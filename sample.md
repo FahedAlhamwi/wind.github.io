@@ -1,5 +1,5 @@
 ---
-title: offers
+title: Offers
 layout: page
 ---
 
