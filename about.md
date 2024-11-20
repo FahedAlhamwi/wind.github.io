@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About
-image: /assets/images/team.jpeg
+image: /assets/images/team.jpg
 
 ---
 # Profectus
