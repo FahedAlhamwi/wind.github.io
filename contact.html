@@ -5,128 +5,145 @@ permalink: /contact/
 ---
 
 <!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kontakt</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4; /* Light background for the page */
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      height: 100vh; /* Ensure the body takes the full height of the screen */
-    }
+  <html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4; /* Light background for the page */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh; /* Ensure the body takes the full height of the screen */
+      }
 
-    .content {
-      display: flex;
-      justify-content: center; /* Horizontally center the card */
-      align-items: center; /* Vertically center the card */
-      height: 60vh; /* Ensure the content takes the full height of the screen */
-    }
+      .content {
+        display: flex;
+        justify-content: center; /* Horizontally center the card */
+        align-items: center; /* Vertically center the card */
+        height: 60vh; /* Ensure the content takes the full height of the screen */
+      }
 
-    .card {
-      background-color: #D3D3D3; /* White background for the card */
-      border-radius: 10px; /* Rounded corners */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow around the card */
-      padding: 30px;
-      max-width: 600px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #333;
-    }
-    .contact-info p {
-      font-size: 1.1rem;
-      margin: 10px 0;
-      line-height: 1.6;
-    }
-    .contact-info a {
-      color: blue; /* Blue color for email and website */
-      text-decoration: none; /* Remove underline from links */
-    }
-    .contact-info a:hover {
-      text-decoration: underline; /* Underline on hover */
-    }
-    .note {
-      font-style: italic;
-      margin-top: 20px;
-      color: #444446;
-    }
-    
-    /* Unique Colors for specific text */
-    .phone {
-      color: blue; /* Unique color for phone number */
-    }
-    .address {
-      color: black; /* Unique color for address text */
-    }
+      .card {
+        background-color: #D3D3D3; /* White background for the card */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow around the card */
+        padding: 30px;
+        max-width: 600px;
+        margin: auto;
+      }
 
-    /* Footer styling */
-    footer {
-      text-align: center;
-      padding: 20px;
-      margin-top: auto; /* Pushes the footer to the bottom of the page */
-    }
-  </style>
-</head>
-<body>
+      .heading {
+        overflow: hidden; /* Ensures the text and image are contained within the heading */
+      }
 
-<div class="content">
-  <div class="card">
-    <h1>Kontaktieren Sie uns</h1>
+      .logo-img {
+        float: right; /* Floats the logo to the right */
+        height: 40px; /* Adjust the logo size */
+        width: auto; /* Keeps the logo's aspect ratio intact */
+        
+      }
 
-    <head>
-      <!-- Add Font Awesome CDN -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    </head>
-    
-    <head>
-      <!-- Add Font Awesome CDN -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      <style>
-        /* Custom styles for the icons */
-        .contact-info i {
-          color: black;
-          margin-right: 8px; /* Adds space between the icon and text */
-        }
-      </style>
-    </head>
-    
-    <div class="contact-info">
-      <p class="address">
-        Haus der Wirtschaft – HDW<br>
-        Daimlerstraße 6<br>
-        61449 Steinbach (Taunus)
-      </p>
-      <p class="phone">
-        <i class="fas fa-phone-alt"></i> 06171-9518040
-      </p>
-      <p>
-        <a href="mailto:verwaltung@profectusbildung.de">
-          <i class="fas fa-envelope"></i> verwaltung@profectusbildung.de
-        </a>
-      </p>
-      <p>
-        <a href="https://www.profectus-bildung.de" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-globe"></i> www.profectus-bildung.de
-        </a>
-      </p>
+      h1, h2 {
+        color: #333;
+      }
+      .contact-info p {
+        font-size: 1.1rem;
+        margin: 10px 0;
+        line-height: 1.6;
+      }
+      .contact-info a {
+        color: blue; /* Blue color for email and website */
+        text-decoration: none; /* Remove underline from links */
+      }
+      .contact-info a:hover {
+        text-decoration: underline; /* Underline on hover */
+      }
+      .note {
+        font-style: italic;
+        margin-top: 20px;
+        color: #444446;
+      }
       
+      /* Unique Colors for specific text */
+      .phone {
+        color: blue; /* Unique color for phone number */
+      }
+      .address {
+        color: black; /* Unique color for address text */
+      }
+
+      /* Footer styling */
+      footer {
+        text-align: center;
+        padding: 20px;
+        margin-top: auto; /* Pushes the footer to the bottom of the page */
+      }
+    </style>
+  </head>
+
+
+  <body>
+
+    <div class="content">
+      <div class="card">
+        <h1 class="heading">
+          Profectus : <span style="font-size: 0.8em;">Sprache & Bildung</span>
+        </h1> 
+        <img src="{{ '/assets/images/Logo.png' | relative_url }}" alt="{{ site.title }}" class="logo-img" />
+        
+        <head>
+          <!-- Add Font Awesome CDN -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        </head>
+        
+        <head>
+          <!-- Add Font Awesome CDN -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+          <style>
+            /* Custom styles for the icons */
+            .contact-info i {
+              color: black;
+              margin-right: 8px; /* Adds space between the icon and text */
+            }
+          </style>
+        </head>
+        
+        <div class="contact-info">
+          <p class="address">
+            Haus der Wirtschaft – HDW<br>
+            Daimlerstraße 6<br>
+            61449 Steinbach (Taunus)
+          </p>
+          <p class="phone">
+            <i class="fas fa-phone-alt"></i> 06171-9518040
+          </p>
+          <p>
+            <a href="mailto:verwaltung@profectusbildung.de">
+              <i class="fas fa-envelope"></i> verwaltung@profectusbildung.de
+            </a>
+          </p>
+          <p>
+            <a href="https://www.profectus-bildung.de" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-globe"></i> www.profectus-bildung.de
+            </a>
+          </p>
+          
+        </div>
+        
+        
+
+        <div class="note">
+          <p>Online-Termine werden individuell und nach Absprache mit Ihnen vereinbart.</p>
+        </div>
+      </div>
     </div>
-    
-    
-
-    <div class="note">
-      <p>Online-Termine werden individuell und nach Absprache mit Ihnen vereinbart.</p>
-    </div>
-  </div>
-</div>
 
 
 
-</body>
+  </body>
 </html>
